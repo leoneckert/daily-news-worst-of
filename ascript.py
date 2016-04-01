@@ -67,7 +67,6 @@ def getTerminalSize():
 (width, height) = getTerminalSize()
 
 
-
 # start indico api
 indicoio.config.api_key = indico_key
 
@@ -127,3 +126,4 @@ for section in sections:
 			if(debug): print str(lowest)
 
 	print "\n"*3
+print "\n"*(int(round(height/2)))
